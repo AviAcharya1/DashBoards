@@ -175,7 +175,7 @@ aside .sidebar{
     background: white;
     display: flex;
     flex-direction: column;
-    height: 186vh;
+    height: 150vh;
     position: relative;
     top: 3rem;
 }
@@ -187,7 +187,7 @@ aside h3{
 aside .sidebar a{
     display: flex;
     color: var(--color-info-dark);
-    margin: 2rem;
+    margin: 1.2rem;
     gap:1rem;
     align-items: center;
     position: relative;
@@ -407,7 +407,7 @@ main .recent-order a{
     display: flex;
     justify-content: end;
     gap: 2rem;
-    background: gray; 
+    /* background: gray;  */
 }
 
 .right .top button{

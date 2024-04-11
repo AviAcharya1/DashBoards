@@ -3,6 +3,10 @@ const menuBtn = document.querySelector("#menu-btn");
 const closeBtn = document.querySelector("#close-btn");
 const themeToggler = document.querySelector(".theme-toggler")
 
+document.getElementById('closeWindow').addEventListener('click', function () {
+    window.close();
+});
+
 menuBtn.addEventListener('click', () => {
     sideMenu.style.display = 'block';
 })
